@@ -21,11 +21,11 @@
 .checkbox-row {
     display: flex;
     align-items: center;
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap;
 }
 
 .terms-text {
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold; 
     margin-left: 1px;
     flex-shrink: 0;
     overflow: hidden;
@@ -40,15 +40,15 @@
 }
 
 .line {
-    flex: 1;  /* Take up the available space */
-    height: 1px;  /* Height of the line */
-    background-color: #ccc;  /* Color of the line */
+    flex: 1;  
+    height: 1px;  
+    background-color: #ccc;  
 }
 
 .or-text {
-    padding: 0 10px;  /* Add some space around the text */
-    margin: 0;  /* Reset any default margin */
-    white-space: nowrap;  /* Prevent the text from wrapping */
+    padding: 0 10px;  
+    margin: 0;  
+    white-space: nowrap;  
 }
 
 .sign-in-link a {

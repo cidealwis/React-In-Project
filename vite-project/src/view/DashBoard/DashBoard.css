@@ -10,13 +10,13 @@
 .data-components-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap; /* Keep items in a horizontal line */
-  overflow-x: auto; /* Allow horizontal scrolling when items overflow */
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
 }
 
 .data-components-container > * {
-  min-width: 150px; /* Set a minimum width for each child item */
-  margin: 10px; /* Space out the child items */
+  min-width: 150px; 
+  margin: 10px; 
 }
 
 .view-more-button {
@@ -37,10 +37,10 @@
   color: white;
 }
 
-/* Media query for larger screens */
+
 @media (min-width: 768px) {
   .data-components-container {
-    flex-wrap: wrap; /* Allow items to wrap in a larger viewport */
-    overflow-x: hidden; /* Disable horizontal scrolling for larger screens */
+    flex-wrap: wrap; 
+    overflow-x: hidden; 
   }
 }
