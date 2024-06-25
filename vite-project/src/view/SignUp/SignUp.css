@@ -1,0 +1,57 @@
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.terms-text {
+    font-weight: bold; /* Make the text bold */
+    margin-left: 1px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 30px);
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.line {
+    flex: 1;  /* Take up the available space */
+    height: 1px;  /* Height of the line */
+    background-color: #ccc;  /* Color of the line */
+}
+
+.or-text {
+    padding: 0 10px;  /* Add some space around the text */
+    margin: 0;  /* Reset any default margin */
+    white-space: nowrap;  /* Prevent the text from wrapping */
+}
+
+.sign-in-link a {
+    text-decoration: none;
+    color: red;
+}

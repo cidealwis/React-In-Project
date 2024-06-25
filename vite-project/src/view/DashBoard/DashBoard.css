@@ -1,0 +1,46 @@
+.home-container {
+  text-align: center;
+  position: relative;
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+}
+
+.data-components-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap; /* Keep items in a horizontal line */
+  overflow-x: auto; /* Allow horizontal scrolling when items overflow */
+}
+
+.data-components-container > * {
+  min-width: 150px; /* Set a minimum width for each child item */
+  margin: 10px; /* Space out the child items */
+}
+
+.view-more-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  width: auto;
+  font-size: 14px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.view-more-button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .data-components-container {
+    flex-wrap: wrap; /* Allow items to wrap in a larger viewport */
+    overflow-x: hidden; /* Disable horizontal scrolling for larger screens */
+  }
+}
